@@ -93,6 +93,10 @@
         font-size: 40px;
         line-height: 1;
     }
+
+    .promotional__content .card {
+        height: 550px;
+    }
 }
 
 /* Large Mobile :480px. */
@@ -109,5 +113,9 @@
         font-size: 25px;
         line-height: 1;
         margin-top: 15px;
+    }
+
+    .promotional__content .card {
+        height: 450px;
     }
 }

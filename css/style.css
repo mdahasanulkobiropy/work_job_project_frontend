@@ -939,16 +939,6 @@ screen and (max-height: 600px) {
     line-height: 1;
 }
 
-.promotional__content {
-    position: relative;
-    z-index: 2;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding: 20px;
-    background: #00A54F;
-    border: 2px dashed #ddd;
-    /* Initialize the counter */
-}
-
 .work_process_area {
     position: relative;
     z-index: 1;
@@ -991,3 +981,120 @@ screen and (max-height: 600px) {
 }
 
 /* referral end */
+
+.promotional__content .card {
+    position: relative;
+    width: 100%;
+    background: #009EE1;
+    border-radius: 20px;
+    border-top-left-radius: 70px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.promotional__content .card .box {
+    position: absolute;
+    inset: 10px;
+    background: #252525;
+    border-radius: 10px;
+}
+
+.promotional__content .card .box .icon {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background: var(--clr);
+    border-bottom-right-radius: 50%;
+    transition: 0.5s;
+}
+
+.promotional__content .card .box .icon::before {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-top-left-radius: 30px;
+    box-shadow: -5px -5px 0 5px var(--clr);
+}
+
+.promotional__content .card .box .icon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-top-left-radius: 30px;
+    box-shadow: -5px -5px 0 5px var(--clr);
+}
+
+.promotional__content .card .box .icon .iconbox {
+    position: absolute;
+    inset: 10px;
+    background: #252525;
+    border-radius: 50%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.promotional__content .card .box .icon .iconbox ion-icon {
+    font-size: 4rem;
+    color: var(--clr);
+    --ionicon-stroke-width: 20px;
+}
+
+.promotional__content .card .box .content {
+    position: absolute;
+    top: 150px;
+    padding: 20px;
+    text-align: center;
+}
+
+.promotional__content .card .box .content h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.promotional__content .iconbox h2 {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+.promotional__content .card .box .content p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.promotional__content .card .box .content a {
+    background: var(--clr);
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.promotional__content .card .box .content a:hover {
+    letter-spacing: 0.2rem;
+}
+
+@media only screen and (max-width: 1080px) {
+    .promotional__content {
+        padding: 2rem 1rem;
+    }
+}
