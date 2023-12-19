@@ -93,6 +93,23 @@
         font-size: 40px;
         line-height: 1;
     }
+
+    .promotional__content .card {
+        height: 550px;
+    }
+
+    .login__area {
+        padding-top: 10px;
+        padding-bottom: 60px;
+    }
+
+    .breadcrumb__content h2 {
+        font-size: 30px;
+    }
+
+    .footer__area.access_page {
+        padding-top: 0px !important;
+    }
 }
 
 /* Large Mobile :480px. */
@@ -109,5 +126,17 @@
         font-size: 25px;
         line-height: 1;
         margin-top: 15px;
+    }
+
+    .promotional__content .card {
+        height: 450px;
+    }
+
+    .breadcrumb__content h2 {
+        font-size: 30px;
+    }
+
+    .footer__area.access_page {
+        padding-top: 0px !important;
     }
 }
