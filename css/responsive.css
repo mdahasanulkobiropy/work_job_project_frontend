@@ -110,6 +110,28 @@
     .footer__area.access_page {
         padding-top: 0px !important;
     }
+
+    .activity__center {
+        margin-top: 8px;
+    }
+
+    .single__activity .progress .progress-bar {
+        height: 15px;
+    }
+
+    .mobile_bars {
+        border: none;
+        font-size: 30px;
+        padding: 0;
+    }
+
+    .mobile__logo img {
+        width: 70px;
+    }
+
+    .offcanvas-header {
+        padding-bottom: 0;
+    }
 }
 
 /* Large Mobile :480px. */
