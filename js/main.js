@@ -69,6 +69,9 @@
         verticalSwiping: true,
     });
 
+    // progress
+
+
     //aos
     AOS.init();
 
