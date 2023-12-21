@@ -370,8 +370,13 @@ p {
 .single__activity {
     background: #fff;
     margin-bottom: 10px;
+    transition: all .5s ease-in-out;
     padding: 15px;
     border-radius: 5px;
+}
+
+.single__activity:hover {
+    transform: translateY(-2px);
 }
 
 .single__activity:last-child {
@@ -1070,6 +1075,7 @@ p {
 
 .login__form a {
     color: #fff;
+    line-height: 1;
 }
 
 .login__area img {
